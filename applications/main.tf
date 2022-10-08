@@ -101,3 +101,6 @@ resource "kubernetes_service" "nginx-svc" {
 
 # minikube ip
 # Visit : <minikube ip>:30201
+
+# add an empty resource
+resource "null_resource" "example" {}
